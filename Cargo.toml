@@ -1,6 +1,6 @@
 [package]
 name = "bevy-kenney-assets"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 description = "Use kenney spritesheets as texture atlases in Bevy"
 repository = "https://github.com/rust-adventure/bevy-kenney-assets"
@@ -10,17 +10,18 @@ license = "MIT OR Apache-2.0"
 
 [dependencies]
 roxmltree = "0.20.0"
-bevy_asset = "0.14"
-bevy_reflect = "0.14"
-bevy_sprite = "0.14"
-bevy_math = "0.14"
-bevy_app = "0.14"
-bevy_render = "0.14"
-thiserror = "1.0"
+bevy_asset = "0.15"
+bevy_reflect = "0.15"
+bevy_sprite = "0.15"
+bevy_math = "0.15"
+bevy_app = "0.15"
+bevy_render = "0.15"
+bevy_image = "0.15"
+thiserror = "2.0"
 
 [dev-dependencies]
-bevy_asset_loader = { version = "0.21", features = ["2d"] }
-bevy = "0.14"
+bevy_asset_loader = { version = "0.22", features = ["2d"] }
+bevy = "0.15"
 woodpecker_ui = { git = "https://github.com/StarArawn/woodpecker_ui.git", rev = "8e2d0d8" }
 bevy_mod_picking = "0.20"
 
